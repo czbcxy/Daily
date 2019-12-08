@@ -1,0 +1,15 @@
+{
+  "payId": "1513232973376002",
+  "sign": "100",
+  "sign_type": "MD5",
+  "oid_partner": "300",
+  "dt_order": "100",
+  "no_order": "100",
+  "oid_paybill": "100",
+  "money_order": "100",
+  "result_pay": "100",
+  "settle_date": "100",
+  "info_order": "100",
+  "pay_type": "100",
+  "bank_code": "100"
+}
