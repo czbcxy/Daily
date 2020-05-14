@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="470279a5-0bc5-43d1-a1f6-4af7fa21790e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../XJJNSW" beforeDir="false" afterPath="$PROJECT_DIR$/../XJJNSW" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myblogo" beforeDir="false" afterPath="$PROJECT_DIR$/../myblogo" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1beeSlxD495t64LcvnAfvmXvhHx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.java.jottings.spi" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BlockingQueueDemo">
+    <configuration name="BlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.java.jottings.ThreadlocalUse.BlockingQueueDemo" />
+      <module name="JReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.java.jottings.ThreadlocalUse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Java8Tester1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.java.jottings.jdk8.Java8Tester1" />
+      <module name="JReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.java.jottings.jdk8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Java8test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.java.jottings.jdk8.Java8test2" />
+      <module name="JReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.java.jottings.jdk8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.java.jottings.spi.Main" />
+      <module name="JReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.java.jottings.spi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="JReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.java.JavaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BlockingQueueDemo" />
+        <item itemvalue="Spring Boot.JavaApplication" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Java8test2" />
+        <item itemvalue="Application.Java8Tester1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="470279a5-0bc5-43d1-a1f6-4af7fa21790e" name="Default Changelist" comment="" />
+      <created>1588996988794</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588996988794</updated>
+      <workItem from="1588996992698" duration="5024000" />
+      <workItem from="1589017539115" duration="604000" />
+      <workItem from="1589175225673" duration="5180000" />
+      <workItem from="1589391588363" duration="8683000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1589468432023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589468432023</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="httpclient" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="me" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1589287313900">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="533" y="139" key="#com.intellij.ide.util.MemberChooser/0.23.1440.805@0.23.1440.805" timestamp="1589287313900" />
+    <state x="303" y="25" key="CommitChangelistDialog2" timestamp="1589468430908">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="303" y="25" key="CommitChangelistDialog2/0.23.1440.800@0.23.1440.800" timestamp="1589468430908" />
+    <state width="1398" height="339" key="GridCell.Tab.0.bottom" timestamp="1589468358340">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state width="1398" height="339" key="GridCell.Tab.0.bottom/0.23.1440.800@0.23.1440.800" timestamp="1589468358340" />
+    <state width="1398" height="254" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1589017511621" />
+    <state width="1398" height="254" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1589287587900" />
+    <state width="1398" height="295" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1589002174559" />
+    <state width="1398" height="339" key="GridCell.Tab.0.center" timestamp="1589468358339">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state width="1398" height="339" key="GridCell.Tab.0.center/0.23.1440.800@0.23.1440.800" timestamp="1589468358339" />
+    <state width="1398" height="254" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1589017511621" />
+    <state width="1398" height="254" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1589287587899" />
+    <state width="1398" height="295" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1589002174559" />
+    <state width="1398" height="339" key="GridCell.Tab.0.left" timestamp="1589468358339">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state width="1398" height="339" key="GridCell.Tab.0.left/0.23.1440.800@0.23.1440.800" timestamp="1589468358339" />
+    <state width="1398" height="254" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1589017511620" />
+    <state width="1398" height="254" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1589287587899" />
+    <state width="1398" height="295" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1589002174558" />
+    <state width="1398" height="339" key="GridCell.Tab.0.right" timestamp="1589468358340">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state width="1398" height="339" key="GridCell.Tab.0.right/0.23.1440.800@0.23.1440.800" timestamp="1589468358340" />
+    <state width="1398" height="254" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1589017511621" />
+    <state width="1398" height="254" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1589287587900" />
+    <state width="1398" height="295" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1589002174559" />
+    <state width="1398" height="300" key="GridCell.Tab.1.bottom" timestamp="1589422990654">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state width="1398" height="300" key="GridCell.Tab.1.bottom/0.23.1440.800@0.23.1440.800" timestamp="1589422990654" />
+    <state width="1398" height="254" key="GridCell.Tab.1.bottom/0.23.1440.803@0.23.1440.803" timestamp="1589017511620" />
+    <state width="1398" height="254" key="GridCell.Tab.1.bottom/0.23.1440.805@0.23.1440.805" timestamp="1589287587898" />
+    <state width="1398" height="254" key="GridCell.Tab.1.bottom/0.23.1440.807@0.23.1440.807" timestamp="1589001392635" />
+    <state width="1398" height="300" key="GridCell.Tab.1.center" timestamp="1589422990653">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state width="1398" height="300" key="GridCell.Tab.1.center/0.23.1440.800@0.23.1440.800" timestamp="1589422990653" />
+    <state width="1398" height="254" key="GridCell.Tab.1.center/0.23.1440.803@0.23.1440.803" timestamp="1589017511619" />
+    <state width="1398" height="254" key="GridCell.Tab.1.center/0.23.1440.805@0.23.1440.805" timestamp="1589287587897" />
+    <state width="1398" height="254" key="GridCell.Tab.1.center/0.23.1440.807@0.23.1440.807" timestamp="1589001392634" />
+    <state width="1398" height="300" key="GridCell.Tab.1.left" timestamp="1589422990653">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state width="1398" height="300" key="GridCell.Tab.1.left/0.23.1440.800@0.23.1440.800" timestamp="1589422990653" />
+    <state width="1398" height="254" key="GridCell.Tab.1.left/0.23.1440.803@0.23.1440.803" timestamp="1589017511619" />
+    <state width="1398" height="254" key="GridCell.Tab.1.left/0.23.1440.805@0.23.1440.805" timestamp="1589287587897" />
+    <state width="1398" height="254" key="GridCell.Tab.1.left/0.23.1440.807@0.23.1440.807" timestamp="1589001392633" />
+    <state width="1398" height="300" key="GridCell.Tab.1.right" timestamp="1589422990653">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state width="1398" height="300" key="GridCell.Tab.1.right/0.23.1440.800@0.23.1440.800" timestamp="1589422990653" />
+    <state width="1398" height="254" key="GridCell.Tab.1.right/0.23.1440.803@0.23.1440.803" timestamp="1589017511620" />
+    <state width="1398" height="254" key="GridCell.Tab.1.right/0.23.1440.805@0.23.1440.805" timestamp="1589287587898" />
+    <state width="1398" height="254" key="GridCell.Tab.1.right/0.23.1440.807@0.23.1440.807" timestamp="1589001392634" />
+    <state x="320" y="151" key="Vcs.Push.Dialog.v2" timestamp="1589468481182">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="320" y="151" key="Vcs.Push.Dialog.v2/0.23.1440.800@0.23.1440.800" timestamp="1589468481182" />
+    <state x="345" y="45" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589424009804">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="345" y="45" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.800@0.23.1440.800" timestamp="1589424009804" />
+    <state x="345" y="45" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.807@0.23.1440.807" timestamp="1589002094069" />
+    <state x="378" y="180" width="683" height="486" key="find.popup" timestamp="1589436495635">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="378" y="180" width="683" height="486" key="find.popup/0.23.1440.800@0.23.1440.800" timestamp="1589436495635" />
+    <state x="482" y="46" key="refactoring.ChangeSignatureDialog" timestamp="1589423455497">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="482" y="46" key="refactoring.ChangeSignatureDialog/0.23.1440.800@0.23.1440.800" timestamp="1589423455497" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/java/jottings/GoogleGuava/GuavaDemo.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
