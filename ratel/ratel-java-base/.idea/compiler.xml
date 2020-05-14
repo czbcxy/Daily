@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ratel-java-base-api" />
+        <module name="ratel-java-base-dao" />
+        <module name="ratel-java-base-dto" />
+        <module name="ratel-java-base-facade" />
+        <module name="ratel-java-base-service" />
+        <module name="ratel-java-common" />
+        <module name="ratel-java-user-api" />
+        <module name="ratel-java-user-dao" />
+        <module name="ratel-java-user-dto" />
+        <module name="ratel-java-user-facade" />
+        <module name="ratel-java-user-service" />
+        <module name="ratel-java-utils" />
+        <module name="ratel-java-webapp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ratel-java-base" target="1.7" />
+      <module name="ratel-java-base-api" target="1.7" />
+      <module name="ratel-java-base-dao" target="1.7" />
+      <module name="ratel-java-base-dto" target="1.7" />
+      <module name="ratel-java-base-facade" target="1.7" />
+      <module name="ratel-java-base-service" target="1.7" />
+      <module name="ratel-java-common" target="1.5" />
+      <module name="ratel-java-user" target="1.7" />
+      <module name="ratel-java-user-api" target="1.7" />
+      <module name="ratel-java-user-dao" target="1.7" />
+      <module name="ratel-java-user-dto" target="1.7" />
+      <module name="ratel-java-user-facade" target="1.7" />
+      <module name="ratel-java-user-service" target="1.7" />
+      <module name="ratel-java-utils" target="1.5" />
+      <module name="ratel-java-webapp" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

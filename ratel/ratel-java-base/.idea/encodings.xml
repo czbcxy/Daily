@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ratel-java-base-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ratel-java-base-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ratel-java-base-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ratel-java-base-facade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ratel-java-base-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ratel-java-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ratel-java-user/ratel-java-user-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ratel-java-user/ratel-java-user-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ratel-java-user/ratel-java-user-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ratel-java-user/ratel-java-user-facade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ratel-java-user/ratel-java-user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ratel-java-utils" charset="UTF-8" />
+  </component>
+</project>

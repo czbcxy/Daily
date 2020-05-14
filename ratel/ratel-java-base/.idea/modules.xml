@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ratel-java-base.iml" filepath="$PROJECT_DIR$/ratel-java-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ratel-java-base-api/ratel-java-base-api.iml" filepath="$PROJECT_DIR$/ratel-java-base-api/ratel-java-base-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ratel-java-base-dao/ratel-java-base-dao.iml" filepath="$PROJECT_DIR$/ratel-java-base-dao/ratel-java-base-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ratel-java-base-dto/ratel-java-base-dto.iml" filepath="$PROJECT_DIR$/ratel-java-base-dto/ratel-java-base-dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ratel-java-base-facade/ratel-java-base-facade.iml" filepath="$PROJECT_DIR$/ratel-java-base-facade/ratel-java-base-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ratel-java-base-service/ratel-java-base-service.iml" filepath="$PROJECT_DIR$/ratel-java-base-service/ratel-java-base-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ratel-java-user/ratel-java-user.iml" filepath="$PROJECT_DIR$/../ratel-java-user/ratel-java-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ratel-java-user/ratel-java-user-api/ratel-java-user-api.iml" filepath="$PROJECT_DIR$/../ratel-java-user/ratel-java-user-api/ratel-java-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ratel-java-user/ratel-java-user-dao/ratel-java-user-dao.iml" filepath="$PROJECT_DIR$/../ratel-java-user/ratel-java-user-dao/ratel-java-user-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ratel-java-user/ratel-java-user-dto/ratel-java-user-dto.iml" filepath="$PROJECT_DIR$/../ratel-java-user/ratel-java-user-dto/ratel-java-user-dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ratel-java-user/ratel-java-user-facade/ratel-java-user-facade.iml" filepath="$PROJECT_DIR$/../ratel-java-user/ratel-java-user-facade/ratel-java-user-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ratel-java-user/ratel-java-user-service/ratel-java-user-service.iml" filepath="$PROJECT_DIR$/../ratel-java-user/ratel-java-user-service/ratel-java-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ratel-java-utils/ratel-java-utils.iml" filepath="$PROJECT_DIR$/../ratel-java-utils/ratel-java-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ratel-java-webapp/ratel-java-webapp.iml" filepath="$PROJECT_DIR$/../ratel-java-webapp/ratel-java-webapp.iml" />
+    </modules>
+  </component>
+</project>

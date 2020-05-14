@@ -1,0 +1,23 @@
+zkServer start
+mongod
+#redis-server
+#redis-cli	
+#python
+#node
+
+前台启动kafka：
+./kafka-server-start.sh ../config/server.properties
+后台启动kafka:
+./kafka-server-start.sh ../config/server.properties 1>/dev/null 2>&1 &
+
+生产者
+./kafka-console-producer.sh --broker-list 127.0.0.1:9092 --topic test
+消费者
+./kafka-console-consumer.sh  --zookeeper 127.0.0.1:2181  --topic test --from-beginning
+
+
+flume开启
+./bin/flume-ng agent --conf-file  conf/kafka.properties -c conf/ --name agent -Dflume.root.logger=DEBUG,console
+
+
+

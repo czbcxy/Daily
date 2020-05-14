@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
+        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+	<!-- <dubbo:application name="ratel-java-platform-base" /> -->
+	<!-- base模块的dubbo配置 -->
+	<!-- <dubbo:registry address="zookeeper://127.0.0.1:2181" />
+	 <dubbo:protocol serialization="dubbo" name="dubbo" port="20881"/> -->
+	<dubbo:registry address="${address}" />
+	<dubbo:protocol serialization="${serialization}" name="${name}"
+		port="${port}" />
+
+	<dubbo:reference id="regionFacade"
+		interface="com.ratel.java.platform.user.facade.RegionFacade" check="false"
+		timeout="500000" />
+	<dubbo:reference id="consumerUserFacade" 
+	interface="com.ratel.java.platform.user.facade.customer.ConsumerUserFacade" check="false"
+		timeout="500000"  />
+</beans>
