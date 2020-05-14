@@ -25,7 +25,7 @@
 		<aspectj_version>1.8.7</aspectj_version>
 		<mybatis_version>3.2.8</mybatis_version>
 		<mybatis-spring>1.2.3</mybatis-spring>
-		<spring_version>4.2.5.RELEASE</spring_version>
+		<spring_version>5.2.6.RELEASE</spring_version>
 		<javassist_version>3.15.0-GA</javassist_version>
 		<httpclient_version>4.4.1</httpclient_version>
 		<zookeeper_version>3.4.6</zookeeper_version>
