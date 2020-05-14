@@ -12,7 +12,7 @@ public class Java8test3 {
     public static void main(String args[]) {
         final int num = 1;
         Converter<Integer, String> s = (param) -> System.out.println(param + num);
-        s.exec(3);  // 输出结果为 3
+        s.exec(3);  // 输出结果为 4
     }
 
 }

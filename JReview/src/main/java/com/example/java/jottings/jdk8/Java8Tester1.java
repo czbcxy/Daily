@@ -28,7 +28,7 @@ public class Java8Tester1 {
     }
 
     private void sortUsingJava8(List<String> names1) {
-        Collections.sort(names1,(s1,s2) -> s1.compareTo(s2));
+        Collections.sort(names1,(s1,s2) -> s2.compareTo(s1));
     }
 
 }

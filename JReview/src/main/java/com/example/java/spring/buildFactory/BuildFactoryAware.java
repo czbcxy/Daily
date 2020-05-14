@@ -50,7 +50,7 @@ public class BuildFactoryAware implements Aware {
 
 
     private List getFile(String fileName) {
-        ClassLoader classLoader = getClass().getClassLoader();
+        ClassLoader classLoader = this.getClass().getClassLoader();
         URL url = classLoader.getResource(fileName);
         String path = url.getPath();
         File[] files = new File(path).listFiles();
@@ -58,8 +58,7 @@ public class BuildFactoryAware implements Aware {
             File file = files[i];
             if (file.exists()
                     && file.getName().endsWith(".properties")
-                    && file.getName().startsWith("bean-")
-                    || file.getName().startsWith("bean")) {
+                    && file.getName().startsWith("bean")) {
                 listFile.add(files[i]);
             }
         }

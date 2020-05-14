@@ -121,36 +121,17 @@ public enum CacheExpire {
      * @param time
      * @return
      */
-    public static CacheExpire match(int time){
-        if(NONE.getTime() == time){
-            return NONE;
-        }else if(ONE_SEC.getTime() ==  time){
-            return ONE_SEC;
-        }else if(FIVE_SEC.getTime() ==  time){
-            return FIVE_SEC;
-        }else if(TEN_SEC.getTime() ==  time){
-            return TEN_SEC;
-        }else if(HALF_A_MIN.getTime() ==  time){
-            return HALF_A_MIN;
-        }else if(ONE_MIN.getTime() ==  time){
-            return ONE_MIN;
-        }else if(FIVE_MIN.getTime() ==  time){
-            return FIVE_MIN;
-        }else if(TEN_MIN.getTime() ==  time){
-            return TEN_MIN;
-        }else if(TWENTY_MIN.getTime() == time){
-            return TWENTY_MIN;
-        }else if(HALF_AN_HOUR.getTime() ==  time){
-            return HALF_AN_HOUR;
-        }else if(ONE_HOUR.getTime() ==  time){
-            return ONE_HOUR;
-        }else if(ONE_DAY.getTime() ==  time){
-            return ONE_DAY;
-        }else if(ONE_MON.getTime() ==  time){
-            return ONE_MON;
-        }else if(ONE_YEAR.getTime() ==  time){
-            return ONE_YEAR;
+    public static CacheExpire matchTime(int time) {
+        CacheExpire[] expires = CacheExpire.values();
+        for (CacheExpire expire : expires) {
+            if (expire.getTime() == time) {
+                return expire;
+            }
         }
         return HALF_AN_HOUR;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(matchTime(60 * 60).getDesc());
     }
 }

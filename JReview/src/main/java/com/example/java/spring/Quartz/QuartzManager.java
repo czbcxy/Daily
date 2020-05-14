@@ -7,11 +7,14 @@ import org.quartz.JobBuilder;
 import org.quartz.JobDetail;
 import org.quartz.JobKey;
 import org.quartz.Scheduler;
+import org.quartz.SchedulerException;
 import org.quartz.Trigger;
 import org.quartz.TriggerBuilder;
 import org.quartz.TriggerKey;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import javax.annotation.Resource;
 
 /**
  * @author czb
@@ -23,7 +26,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class QuartzManager {
 
-    @Autowired
+    @Resource
     private Scheduler scheduler;
 
     /**
@@ -33,12 +36,12 @@ public class QuartzManager {
      * @param jobGroupName     任务组名
      * @param triggerName      触发器名
      * @param triggerGroupName 触发器组名
-     * @param jobClass         任务的类类型 eg:TimedMassJob.class
+     * @param jobClass         任务的类型 eg:TimedMassJob.class
      * @param cron             时间设置 表达式，参考quartz说明文档
      * @param objects          可变参数需要进行传参的值
      */
     public void addJob(String jobName, String jobGroupName, String triggerName, String triggerGroupName,
-                       Class jobClass, String cron, Object... objects) {
+                       Class jobClass, String cron, Object... objects) throws SchedulerException {
         try {
 
             // 任务名，任务组，任务执行类
@@ -47,8 +50,7 @@ public class QuartzManager {
             // 触发器
             if (objects != null) {
                 for (int i = 0; i < objects.length; i++) {
-                    // 该数据可以通过Job中的JobDataMap dataMap =
-                    // context.getJobDetail().getJobDataMap();来进行参数传递值
+                    // 该数据可以通过Job中的JobDataMap dataMap = ontext.getJobDetail().getJobDataMap();来进行参数传递值
                     jobDetail.getJobDataMap().put("data" + (i + 1), objects[i]);
                 }
             }
@@ -67,7 +69,7 @@ public class QuartzManager {
                 scheduler.start();
             }
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            throw e;
         }
 
     }
@@ -75,17 +77,15 @@ public class QuartzManager {
     /**
      * 功能：修改一个任务的触发时间
      *
-     * @param jobName
-     * @param jobGroupName
      * @param triggerName      触发器名
      * @param triggerGroupName 触发器组名
      * @param cron             时间设置，参考quartz说明文档
      */
-    public void modifyJobTime(String jobName, String jobGroupName, String triggerName, String triggerGroupName,
-                              String cron) {
+    public void modifyJobTime(String triggerName, String triggerGroupName,
+                              String cron) throws SchedulerException {
         try {
-            TriggerKey triggerKey = TriggerKey.triggerKey(triggerName, triggerGroupName);
-            CronTrigger trigger = (CronTrigger) scheduler.getTrigger(triggerKey);
+            TriggerKey  triggerKey = TriggerKey.triggerKey(triggerName, triggerGroupName);
+            CronTrigger trigger    = (CronTrigger) scheduler.getTrigger(triggerKey);
             if (trigger == null) {
                 return;
             }
@@ -104,7 +104,7 @@ public class QuartzManager {
                 scheduler.rescheduleJob(triggerKey, trigger);
             }
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            throw e;
         }
     }
 
@@ -116,7 +116,7 @@ public class QuartzManager {
      * @param triggerName
      * @param triggerGroupName
      */
-    public void removeJob(String jobName, String jobGroupName, String triggerName, String triggerGroupName) {
+    public void removeJob(String jobName, String jobGroupName, String triggerName, String triggerGroupName) throws SchedulerException {
         try {
 
             TriggerKey triggerKey = TriggerKey.triggerKey(triggerName, triggerGroupName);
@@ -130,31 +130,31 @@ public class QuartzManager {
             System.out.println("removeJob:" + JobKey.jobKey(jobName));
 
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            throw e;
         }
     }
 
     /**
      * 功能：启动所有定时任务
      */
-    public void startJobs() {
+    public void startJobs() throws SchedulerException {
         try {
             scheduler.start();
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            throw e;
         }
     }
 
     /**
      * 功能：关闭所有定时任务
      */
-    public void shutdownJobs() {
+    public void shutdownJobs() throws SchedulerException {
         try {
             if (!scheduler.isShutdown()) {
                 scheduler.shutdown();
             }
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            throw e;
         }
     }
 }

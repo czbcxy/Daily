@@ -15,6 +15,7 @@ import org.springframework.data.redis.serializer.RedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -40,7 +41,7 @@ public class CacheAspect {
         log.info("====CacheAspect create====");
     }
 
-    @Autowired
+    @Resource
     private RedisTemplate redisTemplate;
 
     @Around("@annotation(cacheAble)")

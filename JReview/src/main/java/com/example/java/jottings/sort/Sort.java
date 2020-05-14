@@ -1,5 +1,7 @@
 package com.example.java.jottings.sort;
 
+import java.util.Arrays;
+
 public class Sort {
     public static void main(String[] args) {
         int[] arr = new int[]{1, 3, 5, 7, 9, 88, 99, 2, 4, 6, 8, 10, 32, 321, 32, 3, 45, 65, 43, 1, 3241, 32, 14, 32, 5, 43, 11, 46, 65, 4, 24, 1, 32, 132, 143, 214, 3214};
@@ -23,9 +25,7 @@ public class Sort {
                 }
             }
         }
-//        for (int i = 0; i < arr.length; i++) {
-//            System.out.print(arr[i] + ",");
-//        }
+        System.out.println(Arrays.toString(arr));
     }
 
     private static void BubbleSort(int[] arr) {
@@ -36,9 +36,7 @@ public class Sort {
                 }
             }
         }
-//        for (int i = 0; i < arr.length; i++) {
-//            System.out.print(arr[i] + ",");
-//        }
+        System.out.println(Arrays.toString(arr));
     }
 
     private static void sawp(int i, int j, int[] arr) {
