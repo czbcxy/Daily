@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "element-ui": "^2.4.4",
-    "highlight.js": "^9.12.0",
+    "highlight.js": "^10.4.1",
     "http-proxy-middleware": "^0.18.0",
     "iview": "^1.0.1",
     "vue": "^2.5.2",
